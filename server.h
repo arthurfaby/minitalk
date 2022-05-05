@@ -6,13 +6,13 @@
 /*   By: afaby <afaby@student.42angouleme.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 11:07:23 by afaby             #+#    #+#             */
-/*   Updated: 2022/05/02 16:23:18 by afaby            ###   ########.fr       */
+/*   Updated: 2022/05/04 16:35:40 by afaby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SERVER_H
 # define SERVER_H
 
-#include <signal.h>
+# include <signal.h>
 
 #endif
