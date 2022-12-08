@@ -6,7 +6,7 @@
 /*   By: afaby <afaby@student.42angouleme.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 16:29:52 by afaby             #+#    #+#             */
-/*   Updated: 2022/05/22 15:40:25 by afaby            ###   ########.fr       */
+/*   Updated: 2022/07/27 10:41:42 by afaby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static void	send_datas(int pid, char *str)
 				kill(pid, SIGUSR1);
 			else
 				kill(pid, SIGUSR2);
-			usleep(10);
+			usleep(100);
 		}
 		str++;
 	}
@@ -38,7 +38,7 @@ static void	send_datas(int pid, char *str)
 	while (i--)
 	{
 		kill(pid, SIGUSR2);
-		usleep(50);
+		usleep(100);
 	}
 }
 

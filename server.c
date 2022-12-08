@@ -6,7 +6,7 @@
 /*   By: afaby <afaby@student.42angouleme.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 11:00:41 by afaby             #+#    #+#             */
-/*   Updated: 2022/05/22 15:42:20 by afaby            ###   ########.fr       */
+/*   Updated: 2022/07/13 15:25:03 by afaby            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,7 +95,7 @@ int	main(void)
 	if (signal(SIGUSR1, sig_handler) == SIG_ERR)
 		ft_printf("Error\n");
 	if (signal(SIGUSR2, sig_handler) == SIG_ERR)
-		ft_printf("Error receiving SIGUSR2\n");
+		ft_printf("Error\n");
 	while (1)
 		usleep(10);
 }
